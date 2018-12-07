@@ -16,11 +16,11 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-DOOM-9818.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-DOOM-6485.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-DOOM-9818.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-DOOM-6485.pdb",
 			"Type": "SymbolFile"
 		},
 		{

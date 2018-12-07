@@ -26,8 +26,7 @@ void ADoomPlayer::MoveForward(float Scale)
 
 void ADoomPlayer::Turn(float Scale)
 {
-	
-	GEngine->AddOnScreenDebugMessage(-1, Scale, FColor::Purple, "TODO: turning left.");
+	AddControllerYawInput(Scale);
 }
 
 void ADoomPlayer::Strafe(float Scale)
