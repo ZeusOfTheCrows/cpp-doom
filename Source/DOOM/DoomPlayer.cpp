@@ -1,6 +1,7 @@
 #include "DoomPlayer.h"
 #include "Components/InputComponent.h"
 #include "Engine.h"
+//#include
 
 
 // Sets default values
@@ -20,17 +21,18 @@ void ADoomPlayer::BeginPlay()
 
 void ADoomPlayer::MoveForward(float Scale)
 {
-	GEngine->AddOnScreenDebugMessage(-1, Scale, FColor::Purple, "moving forward.");
+	AddMovementInput(GetActorForwardVector(), Scale);
 }
 
 void ADoomPlayer::Turn(float Scale)
 {
-	GEngine->AddOnScreenDebugMessage(-1, Scale, FColor::Purple, "turning left.");
+	
+	GEngine->AddOnScreenDebugMessage(-1, Scale, FColor::Purple, "TODO: turning left.");
 }
 
 void ADoomPlayer::Strafe(float Scale)
 {
-	GEngine->AddOnScreenDebugMessage(-1, Scale, FColor::Purple, "strafing left");
+	AddMovementInput(GetActorRightVector(), Scale);
 }
 
 // Called every frame

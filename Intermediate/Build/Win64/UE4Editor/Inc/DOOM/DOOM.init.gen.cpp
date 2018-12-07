@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeDOOM_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/DOOM",
 				PKG_CompiledIn | 0x00000000,
-				0x590F351E,
-				0x82DE83C9,
+				0x00ADC484,
+				0x0AA9543C,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};
