@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\DOOM.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{CE187690-BFBB-49D8-A577-6C48F12D867D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\DOOM.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\DOOMEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{99975969-7977-473F-81BE-05A7953E6FAB}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\DOOM">
+			<UniqueIdentifier>{8BF7A66C-F30D-466C-AB4D-062CDF4B8074}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\DOOM\DOOM.Build.cs">
+			<Filter>Source\DOOM</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\DOOM\DOOM.cpp">
+			<Filter>Source\DOOM</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\DOOM\DOOM.h">
+			<Filter>Source\DOOM</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\DOOM\DOOMGameModeBase.cpp">
+			<Filter>Source\DOOM</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\DOOM\DOOMGameModeBase.h">
+			<Filter>Source\DOOM</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

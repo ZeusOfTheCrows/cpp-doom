@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-DOOM.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\C++\DOOM\DOOM\Intermediate\Build\Win64\DOOMEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\C++\DOOM\DOOM\Intermediate\Build\Win64\UE4Editor\Development\DOOM\DOOM.cpp.obj"
+"D:\C++\DOOM\DOOM\Intermediate\Build\Win64\UE4Editor\Development\DOOM\DOOMGameModeBase.cpp.obj"
+"D:\C++\DOOM\DOOM\Intermediate\Build\Win64\UE4Editor\Development\DOOM\DOOM.init.gen.cpp.obj"
+"D:\C++\DOOM\DOOM\Intermediate\Build\Win64\UE4Editor\Development\DOOM\DOOMGameModeBase.gen.cpp.obj"
+"D:\C++\DOOM\DOOM\Intermediate\Build\Win64\UE4Editor\Development\DOOM\PCLaunch.rc.res"
+/OUT:"D:\C++\DOOM\DOOM\Intermediate\Build\Win64\UE4Editor\Development\DOOM\UE4Editor-DOOM.lib"

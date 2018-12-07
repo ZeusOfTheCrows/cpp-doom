@@ -1,0 +1,3 @@
+D:\C++\DOOM\DOOM\Source\DOOM\DOOM.Build.cs
+D:\C++\DOOM\DOOM\Source\DOOM.Target.cs
+D:\C++\DOOM\DOOM\Source\DOOMEditor.Target.cs
